@@ -108,5 +108,5 @@ short_term_chart = alt.Chart(pd.DataFrame({
     tooltip=alt.Tooltip('media_curto_prazo', format=".2f", title="Média 28 dias")
 )
 
-# Combinar o gráfico ajustado com a linha de médias
+# Combinar o gráfico ajustado com a linha de médias cfr
 st.altair_chart(bar_chart + line_chart + short_term_chart, use_container_width=True)
