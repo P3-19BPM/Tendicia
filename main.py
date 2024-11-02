@@ -68,7 +68,7 @@ elif -3 <= comparacao_percentual <= 3:
 else:
     cor_media_28_dias = "red"
 
-# Exibir cartões de métricas
+# Exibir cartõesmétricas
 st.title("Dashboard de Ocorrências")
 col1, col2, col3, col4 = st.columns(4)
 col1.metric("Total de Ocorrências (84 dias)", total_ocorrencias_84_dias)
