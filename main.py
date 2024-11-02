@@ -60,7 +60,7 @@ media_longo_prazo = daily_counts_with_projection['ocorrencias'].mean()
 media_curto_prazo = daily_counts_with_projection['ocorrencias'][-28:].mean()
 comparacao_percentual = ((media_curto_prazo - media_longo_prazo) / media_longo_prazo) * 100
 
-# Determinar a cor da linha de média de 28 dias
+# Determinar a cor da linha de média de 28
 if comparacao_percentual < -3:
     cor_media_28_dias = "green"
 elif -3 <= comparacao_percentual <= 3:
